@@ -1,0 +1,46 @@
+/* 不允许折叠按钮组 */
+#find-info-btn-group {
+    width: 400px;
+}
+
+#add-btn-group {
+    width: 200px;
+}
+
+.alterRoomInfo{
+    margin-right: 5px;
+}
+
+.alter-btn-group {
+    min-width: 170px;
+}
+
+.alter-btn-group .alterStuInfo {
+    margin-right: 5px;
+}
+
+.done-btn-group {
+    width: 120px;
+}
+
+
+/*.done-btn-group #doneAlterStuInfo {*/
+/*    margin-right: 5px;*/
+/*}*/
+
+/*表单项调整列宽使用min-windth max-width*/
+.table-striped input{
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 100px;
+}
+
+.table-striped th {
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 100px;
+}
+
+.table-striped th .form-group {
+    height: 20px;
+}
