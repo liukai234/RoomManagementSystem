@@ -1,4 +1,14 @@
 function initStu() {
+    // 非法登录模块
+/*    $.post("../php/checkStuLogin.php", function (callbackJson) {
+        console.log(callbackJson['SHasLogin'])
+        let jsonData = jQuery.parseJSON(callbackJson)
+        if(jsonData['SHasLogin'] === false) {
+            // $("body").html("<h1>登录失败</h1>")
+            location.href = "../signinAsStu.php?error=2"
+        }
+    })*/
+
     $.post("../stuLogic/overViewStuInfo.php", function (callbackData) {
         $('.stu-info').html(callbackData);
         alterStuFunction();

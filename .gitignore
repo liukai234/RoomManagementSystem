@@ -1,4 +1,8 @@
-# For Java
+# For vscode
+.vscode
+
+# For Jetbrain
+.idea
 Page/.idea
 Page/test
 

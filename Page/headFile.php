@@ -6,7 +6,7 @@ if (!session_id()) session_start();
 function getConn(): mysqli
 {
     // [注] 在此连接数据库
-    $conn = new mysqli("127.0.0.1", "lk", "1234", "RMS");
+     $conn = new mysqli("127.0.0.1", "lk", "1234", "RMS");
     if ($conn->connect_error) {
         die("connect fail: " . $conn->connect_error);
     }
